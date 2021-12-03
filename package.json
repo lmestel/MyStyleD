@@ -1,0 +1,21 @@
+{
+  "name": "MyStyleD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lukas Mestel",
+  "license": "MIT",
+  "scripts": {
+    "tokens": "node build.js",
+    "sprite": "node createIconSprite.js",
+    "build": "yarn tokens && yarn sprite && yarn prettier -w ./dest"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.0.3"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "htmltojsx": "^0.3.0",
+    "prettier": "^2.5.0",
+    "svgstore": "^3.0.1"
+  }
+}

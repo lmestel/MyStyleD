@@ -1,0 +1,8 @@
+module.exports = {
+  "font-weight": {
+    light: { value: 300 },
+    regular: { value: 400 },
+    "semi-bold": { value: 600 },
+    bold: { value: 700 },
+  },
+};
